@@ -1,0 +1,75 @@
+# .gitignore
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+config.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# SQLite database
+*.sqlite
+
+# Secrets
+*.env
+
+# Miscellaneous
+.sass-cache
+connect.lock
+coverage/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.idea/
+.vscode/
+
+# Sequelize specific
+migrations/
+seeders/
+config/config.json
+
+# Build output
+dist/
+build/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Docker specific
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
